@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Pig E Bank</string>
+    <string name="Login">LOGIN</string>
+    <string name="LoginId">User ID</string>
+    <string name="LoginPassword">Password</string>
+    <string name="signuPage">Not a member? Sign up now</string>
+    <string name="singupEmail">Email</string>
+    <string name="singupPhone">Phone</string>
+    <string name="singupButton">SIGN UP</string>
+    <string name="loginPage">Already have an account? Login now</string>
+    <string name="customDialogtitle">Add piggy bank</string>
+    <string name="createlisttitle">Title</string>
+    <string name="createlistAmount">Amount</string>
+    <string name="formCancelBtn">cancel</string>
+    <string name="formMakeBtn">Make</string>
+    <string name="formTitleHint">Title</string>
+    <string name="formAmtHint">Amount</string>
+    <string name="list">Pig E Bank List</string>
+    <string name="Prompttitle">Select Your Category</string>
+    <string name="categoryaddbutton">Add New Category</string>
+    <string-array name="incomeCategory">
+        <item>Wage</item>
+        <item>Fund</item>
+        <item>Interest</item>
+        <item>Bank</item>
+        <item>ETC</item>
+
+    </string-array>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="direction"><![CDATA[Click to go into bank -->]]></string>
+    <string name="AppDescription">This app is Pig E Bank. You can make a plan and set the duedate, saving money, and record summaries. Finally, this app shows you the graphs about your spending</string>
+    <string name="AppAddingDescription">There is + button on the screens. you click the + or add button if you want to make new accounts or summaries</string>
+    <string name="AppUpdateorDeleteDescription">You can select All the updating or deleting options with the long click!</string>
+</resources>

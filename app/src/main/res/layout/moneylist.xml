@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <View
+        android:id="@+id/emptyview"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/listviewcolor"/>
+
+    <LinearLayout
+        android:id="@+id/layoutLin"
+        android:layout_width="363dp"
+        android:layout_height="101dp"
+        android:layout_gravity="center"
+        android:background="@drawable/listviewround"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/moneylisttitle"
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="20sp"
+                android:scrollbarSize="10dp"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/moneydescription"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="20sp"
+                android:text="Text"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/moneylistcategory"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="20sp"
+                android:text="TextView"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/moneylistdate"
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:gravity="right|center_vertical"
+                android:paddingRight="10dp"
+                android:text="TextView"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/moneylistamount"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical"
+                android:paddingRight="15dp"
+                android:text="TextView"
+                android:textSize="30dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
